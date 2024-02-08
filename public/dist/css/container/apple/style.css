@@ -197,6 +197,11 @@
   background-color: #fafafa;
 }
 
+.product--watch {
+  background-image: url(/img/watch.png);
+  background-color: #000;
+}
+
 .product--trade-in {
   background-image: url(/img/trade_in.png);
   background-color: #fbfbfd;
