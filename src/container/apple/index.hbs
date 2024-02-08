@@ -41,6 +41,32 @@
 
   </div>
 
+  <div class='header__2'>
+
+    {{#with header.ad}}
+      <section class='header__content'>
+        <div class='header__block'>
+          <h6>{{title}}</h6>
+        </div>
+
+        <div class='header__block'>
+          <div class='product__action'>
+            {{#with link}}
+
+              <a
+                href='{{url}}'
+                class='product__link'
+              >{{text}}</a>
+
+            {{/with}}
+
+          </div>
+        </div>
+      </section>
+    {{/with}}
+
+  </div>
+
   {{#with iphone_pro}}
     <section
       class='product product-big product--iphone-pro product--dark product--top'
@@ -87,6 +113,55 @@
     </section>
   {{/with}}
 
+  <div class='section__double'>
+    <div>
+      {{#with trade_in}}
+        <section
+          class='product product-small product--trade-in product--light product--top'
+        >
+          <div class='product__content'>
+            <h1 class='product__title'>{{title}}</h1>
+            <p
+              class='product__description'
+            >{{descriptions}}</p>
+
+            <div class='product__action'>
+              {{#with link}}
+                <a
+                  href='{{link}}'
+                  class='product__link'
+                >{{text}}</a>
+              {{/with}}
+            </div>
+          </div>
+        </section>
+      {{/with}}
+    </div>
+
+    <div>
+      {{#with conference}}
+        <section
+          class='product product-small product--conference product--dark product--bottom'
+        >
+          <div class='product__content'>
+            <h1 class='product__title'>{{title}}</h1>
+            <p
+              class='product__description'
+            >{{descriptions}}</p>
+
+            <div class='product__action'>
+              {{#with link}}
+                <a
+                  href='{{link}}'
+                  class='product__link'
+                >{{text}}</a>
+              {{/with}}
+            </div>
+          </div>
+        </section>
+      {{/with}}
+    </div>
+  </div>
 </div>
 
 {{! 
