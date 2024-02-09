@@ -96,6 +96,7 @@ router.get('/apple', function (req, res) {
         link: 'www.example.com/wwwdc23',
       },
     },
+
     ipad: {
       title: 'Ipad',
       descriptions: 'Lovable. Drawable. Magical.',
@@ -112,6 +113,7 @@ router.get('/apple', function (req, res) {
         link: 'www.example.com/small-bus',
       },
     },
+
     gift: {
       title: 'Take your pick of Mother’s Day gifts.',
       descriptions:
@@ -122,7 +124,7 @@ router.get('/apple', function (req, res) {
       },
     },
     card: {
-      title: 'card',
+      title: 'Card',
       descriptions:
         'Get up to 3% Daily Cash back with every purchase.',
       link: {

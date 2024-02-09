@@ -212,6 +212,26 @@
   background-color: #000;
 }
 
+.product--ipad {
+  background-image: url(/img/ipad.png);
+  background-color: #fbfbfd;
+}
+
+.product--smallBusiness {
+  background-image: url(/img/smallBusiness.png);
+  background-color: #000;
+}
+
+.product--gift {
+  background-image: url(/img/gift.png);
+  background-color: #fbfbfd;
+}
+
+.product--card {
+  background-image: url(/img/card.png);
+  background-color: #fbfbfd;
+}
+
 .product-small .product__title {
   font-size: 40px;
 }

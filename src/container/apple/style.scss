@@ -141,6 +141,10 @@ $productImage: (
   'watch' '/img/watch.png' #000,
   'trade-in' '/img/trade_in.png' #fbfbfd,
   'conference' '/img/conference.png' #000,
+  'ipad' '/img/ipad.png' #fbfbfd,
+  'smallBusiness' '/img/smallBusiness.png' #000,
+  'gift' '/img/gift.png' #fbfbfd,
+  'card' '/img/card.png' #fbfbfd,
 );
 
 @each $class, $url, $color in $productImage {
