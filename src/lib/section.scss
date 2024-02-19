@@ -7,6 +7,13 @@
   padding: 0 s.space(4);
 }
 
+.section__bottom {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  // padding: 0 s.space(4);
+}
+
 $contentSizeMap: (
   desktop: 1100px,
   laptop: 900px,

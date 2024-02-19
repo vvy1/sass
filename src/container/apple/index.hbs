@@ -287,6 +287,29 @@
       {{/with}}
     </div>
   </div>
+
+  <div class='footer'>
+
+    {{#each footer}}
+      <footer class='footer__content'>
+
+        <div class='footer__block'>
+          <h6>{{title}}</h6>
+          <nav class='footer__block'>
+            {{#each links}}
+              <a
+                href='{{url}}'
+                class='header__link footer__link'
+              >{{text}}</a>
+            {{/each}}
+          </nav>
+        </div>
+
+      </footer>
+    {{/each}}
+
+  </div>
+
 </div>
 
 {{! 

@@ -4,6 +4,12 @@
   padding: 0 16px;
 }
 
+.section__bottom {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
 .section__content {
   max-width: 1200px;
   width: 100%;
